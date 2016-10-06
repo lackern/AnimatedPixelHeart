@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PixelHeart">
+            <connections>
+                <outletCollection property="PH_LeftSide" destination="AE9-49-Ljn" id="wvI-rs-fbN"/>
+                <outletCollection property="PH_LeftSide" destination="Vwb-HP-gqc" id="Z79-Ic-Nkv"/>
+                <outletCollection property="PH_LeftSide" destination="O0h-OW-WmK" id="CKd-MG-sut"/>
+                <outletCollection property="PH_LeftSide" destination="Jhd-pL-4Yp" id="Eg9-ln-7Mt"/>
+                <outletCollection property="PH_LeftSide" destination="1Dj-ol-aHc" id="W5A-sF-nZC"/>
+                <outletCollection property="PH_LeftSide" destination="Vaf-Ai-quu" id="hnr-py-fuk"/>
+                <outletCollection property="PH_LeftSide" destination="Xow-cj-pm9" id="74D-sh-tu5"/>
+                <outletCollection property="PH_RightSide" destination="lPY-4c-hvg" id="oEq-sV-Yv7"/>
+                <outletCollection property="PH_RightSide" destination="Jnd-ob-Ddh" id="17H-J9-uGZ"/>
+                <outletCollection property="PH_RightSide" destination="uUs-LP-YrD" id="siH-vs-jez"/>
+                <outletCollection property="PH_RightSide" destination="qcN-u5-Nqg" id="ubh-Hu-Hsx"/>
+                <outletCollection property="PH_RightSide" destination="egZ-k8-0Tz" id="ZEU-qy-Uu4"/>
+                <outletCollection property="PH_RightSide" destination="egZ-k8-0Tz" id="Vgm-aJ-qhx"/>
+                <outletCollection property="PH_RightSide" destination="i2J-gf-3Yd" id="eMS-WZ-gEs"/>
+                <outletCollection property="PH_RightSide" destination="oZq-cU-7o4" id="qfV-8i-cqm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYp-G6-RTD">
+                    <rect key="frame" x="30" y="107" width="540" height="386"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AE9-49-Ljn" customClass="LeftTriangleView">
+                            <rect key="frame" x="2" y="0.0" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xow-cj-pm9" customClass="RightTriangleView">
+                            <rect key="frame" x="2" y="77" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vaf-Ai-quu" customClass="LeftTriangleView">
+                            <rect key="frame" x="2" y="154" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Dj-ol-aHc" customClass="RightTriangleView">
+                            <rect key="frame" x="136" y="0.0" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jhd-pL-4Yp" customClass="LeftTriangleView">
+                            <rect key="frame" x="136" y="78" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O0h-OW-WmK" customClass="RightTriangleView">
+                            <rect key="frame" x="136" y="154" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vwb-HP-gqc" customClass="LeftTriangleView">
+                            <rect key="frame" x="136" y="232" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPY-4c-hvg" customClass="LeftTriangleView">
+                            <rect key="frame" x="270" y="1" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jnd-ob-Ddh" customClass="RightTriangleView">
+                            <rect key="frame" x="270" y="78" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uUs-LP-YrD" customClass="LeftTriangleView">
+                            <rect key="frame" x="270" y="155" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcN-u5-Nqg" customClass="RightTriangleView">
+                            <rect key="frame" x="270" y="232" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egZ-k8-0Tz" customClass="RightTriangleView">
+                            <rect key="frame" x="404" y="1" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2J-gf-3Yd" customClass="LeftTriangleView">
+                            <rect key="frame" x="404" y="78" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oZq-cU-7o4" customClass="RightTriangleView">
+                            <rect key="frame" x="404" y="155" width="134" height="154"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                    <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Jhd-pL-4Yp" firstAttribute="centerY" secondItem="Jnd-ob-Ddh" secondAttribute="centerY" id="0qP-TS-eZy"/>
+                        <constraint firstItem="Xow-cj-pm9" firstAttribute="bottom" secondItem="O0h-OW-WmK" secondAttribute="centerY" id="2ps-t0-b3r"/>
+                        <constraint firstItem="O0h-OW-WmK" firstAttribute="top" secondItem="1Dj-ol-aHc" secondAttribute="bottom" id="6ZT-gI-MJJ"/>
+                        <constraint firstItem="i2J-gf-3Yd" firstAttribute="centerY" secondItem="oZq-cU-7o4" secondAttribute="top" id="7g6-D1-tqf"/>
+                        <constraint firstItem="uUs-LP-YrD" firstAttribute="centerY" secondItem="oZq-cU-7o4" secondAttribute="centerY" id="Bb1-mQ-qad"/>
+                        <constraint firstItem="egZ-k8-0Tz" firstAttribute="leading" secondItem="Jnd-ob-Ddh" secondAttribute="trailing" id="GDY-ZU-MxC"/>
+                        <constraint firstItem="i2J-gf-3Yd" firstAttribute="leading" secondItem="oZq-cU-7o4" secondAttribute="leading" id="Nwl-dn-ut6"/>
+                        <constraint firstItem="Vaf-Ai-quu" firstAttribute="centerY" secondItem="O0h-OW-WmK" secondAttribute="centerY" id="S9T-1j-InL"/>
+                        <constraint firstItem="AE9-49-Ljn" firstAttribute="centerY" secondItem="1Dj-ol-aHc" secondAttribute="centerY" id="TbJ-vO-cXE"/>
+                        <constraint firstItem="O0h-OW-WmK" firstAttribute="leading" secondItem="Vaf-Ai-quu" secondAttribute="trailing" id="Tcu-KC-xpq"/>
+                        <constraint firstItem="O0h-OW-WmK" firstAttribute="centerY" secondItem="vYp-G6-RTD" secondAttribute="bottom" multiplier="0.6" id="UWu-gZ-TOE"/>
+                        <constraint firstItem="qcN-u5-Nqg" firstAttribute="top" secondItem="vYp-G6-RTD" secondAttribute="bottom" multiplier="0.6" id="V20-w7-vMi"/>
+                        <constraint firstItem="qcN-u5-Nqg" firstAttribute="leading" secondItem="Vwb-HP-gqc" secondAttribute="trailing" id="V53-Qi-vqI"/>
+                        <constraint firstItem="lPY-4c-hvg" firstAttribute="centerY" secondItem="egZ-k8-0Tz" secondAttribute="centerY" id="bsg-sQ-hfe"/>
+                        <constraint firstItem="O0h-OW-WmK" firstAttribute="trailing" secondItem="vYp-G6-RTD" secondAttribute="centerX" id="cdA-y6-T3u"/>
+                        <constraint firstItem="1Dj-ol-aHc" firstAttribute="leading" secondItem="AE9-49-Ljn" secondAttribute="trailing" id="clY-Xf-Bau"/>
+                        <constraint firstItem="Jnd-ob-Ddh" firstAttribute="leading" secondItem="vYp-G6-RTD" secondAttribute="centerX" id="cth-7k-A64"/>
+                        <constraint firstItem="qcN-u5-Nqg" firstAttribute="leading" secondItem="vYp-G6-RTD" secondAttribute="centerX" id="edb-dK-ADm"/>
+                        <constraint firstItem="Xow-cj-pm9" firstAttribute="trailing" secondItem="O0h-OW-WmK" secondAttribute="leading" id="gOM-Zi-Mjn"/>
+                        <constraint firstItem="Jnd-ob-Ddh" firstAttribute="top" secondItem="vYp-G6-RTD" secondAttribute="bottom" multiplier="0.2" id="gTe-S9-oHg"/>
+                        <constraint firstItem="egZ-k8-0Tz" firstAttribute="bottom" secondItem="Jnd-ob-Ddh" secondAttribute="centerY" id="jSD-k6-vrr"/>
+                        <constraint firstItem="Vwb-HP-gqc" firstAttribute="centerY" secondItem="qcN-u5-Nqg" secondAttribute="centerY" id="pEf-cr-F6r"/>
+                        <constraint firstAttribute="width" secondItem="vYp-G6-RTD" secondAttribute="height" multiplier="7:5" id="qYI-Lr-TGX"/>
+                        <constraint firstItem="Jnd-ob-Ddh" firstAttribute="leading" secondItem="1Dj-ol-aHc" secondAttribute="trailing" id="svW-sz-3Sh"/>
+                        <constraint firstItem="oZq-cU-7o4" firstAttribute="bottom" secondItem="qcN-u5-Nqg" secondAttribute="centerY" id="tGn-bG-sbv"/>
+                        <constraint firstItem="oZq-cU-7o4" firstAttribute="leading" secondItem="uUs-LP-YrD" secondAttribute="trailing" id="twG-up-6Sr"/>
+                        <constraint firstItem="egZ-k8-0Tz" firstAttribute="leading" secondItem="lPY-4c-hvg" secondAttribute="trailing" id="vSx-Iv-CoD"/>
+                        <constraint firstItem="oZq-cU-7o4" firstAttribute="leading" secondItem="qcN-u5-Nqg" secondAttribute="trailing" id="wxy-fs-8fv"/>
+                        <constraint firstItem="Jnd-ob-Ddh" firstAttribute="leading" secondItem="Jhd-pL-4Yp" secondAttribute="trailing" id="zgp-nh-MnR"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJ3-Ze-23g" userLabel="View Ruler">
+                    <rect key="frame" x="458" y="438" width="134" height="154"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="height" multiplier="1.73205:2" id="TSd-Lc-av1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="i2J-gf-3Yd" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="2FL-Mb-czh"/>
+                <constraint firstItem="1Dj-ol-aHc" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="3zh-rD-gmt"/>
+                <constraint firstItem="oZq-cU-7o4" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="425-ck-fYw"/>
+                <constraint firstItem="vYp-G6-RTD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8tL-N6-9Hs"/>
+                <constraint firstItem="Xow-cj-pm9" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="9sQ-bK-QGy"/>
+                <constraint firstItem="lPY-4c-hvg" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="DPL-6m-cdW"/>
+                <constraint firstItem="Jnd-ob-Ddh" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="Fbk-Ww-J2G"/>
+                <constraint firstItem="vYp-G6-RTD" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.9" id="Iu9-Zt-lHy"/>
+                <constraint firstItem="vYp-G6-RTD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Kdz-L0-zeO"/>
+                <constraint firstItem="oZq-cU-7o4" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="Uwg-Au-rHU"/>
+                <constraint firstItem="Vaf-Ai-quu" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="VcT-Aq-cB3"/>
+                <constraint firstAttribute="bottom" secondItem="kJ3-Ze-23g" secondAttribute="bottom" constant="8" id="Vhw-F4-Uq9"/>
+                <constraint firstItem="uUs-LP-YrD" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="ZlJ-kA-L7W"/>
+                <constraint firstItem="Vaf-Ai-quu" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="a3Y-hP-KIw"/>
+                <constraint firstItem="Vwb-HP-gqc" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="ags-X8-wwB"/>
+                <constraint firstItem="Jnd-ob-Ddh" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="b8S-bR-YtC"/>
+                <constraint firstItem="uUs-LP-YrD" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="cPW-bd-MYM"/>
+                <constraint firstItem="egZ-k8-0Tz" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="chQ-NQ-QKS"/>
+                <constraint firstItem="qcN-u5-Nqg" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="cpM-eP-gCn"/>
+                <constraint firstItem="O0h-OW-WmK" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="dBo-O3-9KY"/>
+                <constraint firstItem="lPY-4c-hvg" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="fDc-D4-Cks"/>
+                <constraint firstItem="Vwb-HP-gqc" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="gtX-CU-1Pj"/>
+                <constraint firstItem="Jhd-pL-4Yp" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="hZz-wJ-sRi"/>
+                <constraint firstItem="O0h-OW-WmK" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="kat-bh-bIU"/>
+                <constraint firstItem="Jhd-pL-4Yp" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="lQA-oV-dEd"/>
+                <constraint firstItem="egZ-k8-0Tz" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="lk3-AW-94X"/>
+                <constraint firstItem="kJ3-Ze-23g" firstAttribute="height" secondItem="vYp-G6-RTD" secondAttribute="height" multiplier="0.4" id="lqv-xI-pF4"/>
+                <constraint firstAttribute="trailing" secondItem="kJ3-Ze-23g" secondAttribute="trailing" constant="8" id="mpN-0R-O6z"/>
+                <constraint firstItem="i2J-gf-3Yd" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="qFG-iw-TRu"/>
+                <constraint firstItem="Xow-cj-pm9" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="qS9-f7-TIO"/>
+                <constraint firstItem="1Dj-ol-aHc" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="vB6-Xy-MLb"/>
+                <constraint firstItem="AE9-49-Ljn" firstAttribute="width" secondItem="kJ3-Ze-23g" secondAttribute="width" id="vju-gF-NnG"/>
+                <constraint firstItem="qcN-u5-Nqg" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="xie-fN-B9X"/>
+                <constraint firstItem="AE9-49-Ljn" firstAttribute="height" secondItem="kJ3-Ze-23g" secondAttribute="height" id="yTJ-WK-bwl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="342" y="391"/>
+        </view>
+    </objects>
+</document>
